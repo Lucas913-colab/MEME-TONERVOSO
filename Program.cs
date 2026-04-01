@@ -1,2 +1,7 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Usuário, o que você pensa sobre mim? Você é muito sem graça!");
+﻿string Mensagem, MemeToNervoso;
+Console.WriteLine("Usuário, o que você pensa sobre mim? ");
+Mensagem = Console.ReadLine()!;
+
+MemeToNervoso = $"{Mensagem.Remove(10)}... NÃO, PERA.\nTô nervoso";
+
+Console.WriteLine(MemeToNervoso);
